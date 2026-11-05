@@ -39,6 +39,7 @@ jobs:
 
       - name: Build Debug APK
         run: |
+          sed -i '/dependencies {/a \    constraints {\n        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22")\n        implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22")\n    }' android/app/build.gradle
           cd android
           chmod +x ./gradlew
           ./gradlew assembleDebug --no-daemon
