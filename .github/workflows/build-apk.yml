@@ -12,4 +12,4 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/
+        uses: actions/checkout@v4
