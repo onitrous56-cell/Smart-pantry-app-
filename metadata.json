@@ -1,0 +1,6 @@
+{
+  "name": "Smart Pantry & Expiry Tracker",
+  "description": "Ultra-fast smart pantry and food waste tracker with voice input, quick date presets, expiry urgency alerts, and recipe cooking simulator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

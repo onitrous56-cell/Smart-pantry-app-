@@ -1,0 +1,15 @@
+{
+  "appId": "com.smartpantry.tracker",
+  "appName": "Smart Pantry & Expiry Tracker",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": true
+  }
+}
